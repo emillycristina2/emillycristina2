@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>A Princesa e o Sapo</title>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #fffdf4, #d8f5e3);
+      color: #2e2e2e;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to right, #0d5c42, #1e7e60);
+      padding: 20px;
+      box-shadow: 0 0 20px #a78c48;
+    }
+
+    header img {
+      height: 80px;
+      border-radius: 10px;
+    }
+
+    header h1 {
+      color: #fff8dc;
+      margin-left: 20px;
+      text-shadow: 0 0 10px #ffd700;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header div {
+      margin-left: auto;
+    }
+
+    header a {
+      margin: 10px;
+      color: #fff8dc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      margin: 20px;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .personagem-card {
+      max-width: 220px;
+      text-align: center;
+      background-color: #ffffffdd;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #b0d8a5;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .personagem-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #89e9a2;
+    }
+
+    h2 {
+      background: linear-gradient(to right, #3baf75, #a96fd8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 10px rgba(167, 140, 72, 0.4);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .personagens-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .personagem-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/The_Princess_and_the_Frog_poster.jpg" alt="Logo">
+    <h1>A Princesa e o Sapo</h1>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#info">Informações</a>
+      <a href="#curiosidades">Curiosidades</a>
+      <a href="#personagens">👑 Personagens</a>
+      <a href="#videos">Vídeos</a>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Bem-vindo ao mundo mágico de Tiana!</h2>
+    <p>"A Princesa e o Sapo" é um filme encantador da Disney que traz uma princesa determinada, um príncipe sapo e uma jornada cheia de magia em Nova Orleans.</p>
+  </section>
+
+  <!-- Informações -->
+  <section id="info">
+    <h2>Informações</h2>
+    <p><strong>Lançamento:</strong> 2009</p>
+    <p><strong>Direção:</strong> Ron Clements e John Musker</p>
+    <p><strong>Sinopse:</strong> Tiana, uma jovem trabalhadora com o sonho de abrir seu próprio restaurante, acaba envolvida em uma aventura mágica ao beijar um príncipe transformado em sapo.</p>
+  </section>
+
+  <!-- Curiosidades -->
+  <section id="curiosidades">
+    <h2>Curiosidades</h2>
+    <ul>
+      <li>Foi o primeiro filme da Disney a ter uma princesa negra como protagonista.</li>
+      <li>A história se passa em Nova Orleans, com forte influência da cultura cajun.</li>
+      <li>O filme tem uma trilha sonora maravilhosa composta por Randy Newman.</li>
+    </ul>
+  </section>
+
+  <!-- Personagens -->
+  <section id="personagens">
+    <h2>Personagens Principais</h2>
+    <div class="personagens-container">
+      <div class="personagem-card">
+        <img src="https://i.pinimg.com/564x/f5/1a/c0/f51ac03ed8a2a39170d1198a378a7f19.jpg" alt="Tiana">
+        <h3>Tiana</h3>
+        <p>A protagonista do filme, uma jovem trabalhadora que sonha em abrir seu próprio restaurante.</p>
+      </div>
+      <div class="personagem-card">
+        <img src="https://i.pinimg.com/236x/44/4a/33/444a330ac92ed584cf9db7ccce34acc0.jpg" alt="Príncipe Naveen">
+        <h3>Príncipe Naveen</h3>
+        <p>Um príncipe encantado que se transforma em sapo e se junta a Tiana em uma aventura mágica.</p>
+      </div>
+      <div class="personagem-card">
+        <img src="https://preview.redd.it/r2oy3ui1ki871.jpg?auto=webp&s=c0597dbfd611fecd4715ee4d6bf4b93a5a580a5f" alt="Dr. Facilier">
+        <h3>Dr. Facilier</h3>
+        <p>O vilão do filme, que usa magia negra para tentar ganhar poder e controle sobre os outros.</p>
+      </div>
+      <div class="personagem-card">
+        <img src="https://pbs.twimg.com/media/EbyMMdDXgAIMSxt.jpg" alt="Charlotte">
+        <h3>Charlotte</h3>
+        <p>Melhor amiga de Tiana, que sonha em se casar com um príncipe e ter uma vida de luxo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vídeos -->
+  <section id="videos">
+    <h2>Vídeo da Música - "Quase Lá"</h2>
+    <div class="video-container">
+      <!-- Vídeo incorporado -->
+      <iframe src="https://youtu.be/sP47iA0tJ-0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+</body>
+</html>
